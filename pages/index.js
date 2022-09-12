@@ -1,64 +1,24 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import logo from '../public/logo.svg'
-import Link from 'next/link'
+
+import Jelly from '../public/images/mukuzainstantplus.jpeg'
+
+import Navbar from '../components/navbar'
 
 export default function Home() {
   return (
     <div>
-      <nav>
-        <div>
-          <div>
-            <Image src={logo} width="20" height="20"/>
-          </div>
-          <div>
-            <span>
-              P
-            </span>
-            <span>
-              E
-            </span>
-            <span>
-              H
-            </span>
-          </div>
-        </div>
-
-        <div>
-
-          <ul>
-            <li>
-              <Link href="/">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/reviews">
-                Reviews
-              </Link>
-            </li>
-            <li>
-              <Link href="/faqs">
-                FAQS
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact">
-                CONTACT
-              </Link>
-            </li>
-          </ul>
-
-        </div>
-
-      </nav>
+      <Navbar/>
       <div className={styles.hero}>
-        <h1>Gain 2 - 7 Inches fast in Just 14 Days with our powerful Herbs</h1>
+       <div className={styles.hero_container}>
+         <h1>Gain 2 - 7 Inches fast in Just 14 Days with our powerful Herbs</h1>
+       </div>
       </div>
 
       <div className={styles.article}>
-        <p>
+       <div className={styles.article_container}>
+       <p>
           Throw Away your Penis Pills, Penis Extenders, 
           Penis Pumps and definitely STOP those silly 
           Penis Enlargement Exercises that take Months 
@@ -125,10 +85,84 @@ export default function Home() {
           liable for your Actions!!!)
         </p>
 
+       </div>
+
       </div>
 
       <div className={styles.products_section}>
+            <div className={styles.product_section_container}>
+              <div>
+                <h2>P Enlargement Products</h2>
+                <span>Choose the one product that fits your needs - we have tea and jelly</span>
+              </div>
+              <div className={styles.product_container}>
+                <div>
+                  <Image src={Jelly} width="200px" height="200px"/>
+                  <h4>Mukuza Instant Performance Tea </h4>
+                  <span>(New Formula!)</span>
+                  <span>(370.9$)</span>
+                  <p>Specially Formulated for those who want Extreme 
+                    Stallion like Performance - Mixed with over 
+                    15 secret highly potent Therapeutic herbs with 
+                    Aphrodisiac Properties that's been used across 
+                    Africa to treat different male Sexual Dysfunction 
+                    & Disorders for a very long time - For Masturbation 
+                    Victims, Low Sex Drive, Erectile Dysfunction,  
+                    Weak Erections & Sexual Stamina/Manpower (last in 
+                    bed for 45 minutes minimum), Increases Sperm Volume 
+                    & Tons of other health benefits - You simply mix 2 
+                    teaspoons in a cup full of hot water and let it settle 
+                    for about 5 mins, take twice a day in the morning and 
+                    afternoon for full effect and in just about 2 days 
+                    your entire system will undergo full detox and your 
+                    performance will start improving Instantly -  It's 
+                    Been Used All Over Africa from Sudan to Congo  -  
+                    Highly Recommended! </p>
 
+                    <a>Get it Now</a>
+                </div>
+
+                <div>
+                  <Image src={Jelly} width="200px" height="200px"/>
+                  <h4>Mukuza Instant Performance Tea </h4>
+                  <span>(New Formula!)</span>
+                  <span>(370.9$)</span>
+                  <p>Specially Formulated for those who want Extreme 
+                    Stallion like Performance - Mixed with over 
+                    15 secret highly potent Therapeutic herbs with 
+                    Aphrodisiac Properties that's been used across 
+                    Africa to treat different male Sexual Dysfunction 
+                    & Disorders for a very long time - For Masturbation 
+                    Victims, Low Sex Drive, Erectile Dysfunction,  
+                    Weak Erections & Sexual Stamina/Manpower (last in 
+                    bed for 45 minutes minimum), Increases Sperm Volume 
+                    & Tons of other health benefits - You simply mix 2 
+                    teaspoons in a cup full of hot water and let it settle 
+                    for about 5 mins, take twice a day in the morning and 
+                    afternoon for full effect and in just about 2 days 
+                    your entire system will undergo full detox and your 
+                    performance will start improving Instantly -  It's 
+                    Been Used All Over Africa from Sudan to Congo  -  
+                    Highly Recommended! </p>
+
+                    <a>Get it Now</a>
+                </div>
+            </div>
+            </div>
+      </div>
+
+      <div>
+        <div>
+          <h1>Free Worldwide shipping Via DHL</h1>
+        </div>
+        <div>
+          <h1>How to Order!</h1>
+          <ol>
+            <l1>Choose your Intended product</l1>
+            <li>Send us a message via WhatsApp or Email</li>
+            <li>Include Shipping Information to Avoid Delay.</li>
+          </ol>
+        </div>
       </div>
       
     </div>

@@ -1,0 +1,96 @@
+.container{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0px auto;
+    /* padding:10px 10%; */
+    background-color: aquamarine;
+}
+
+.logo_container{
+    display: flex;
+    font-size: 18px;
+}
+
+.nav_list li{
+    display: inline-block;
+    padding: 0px 10px;
+    text-transform: uppercase;
+
+}
+.nav_list li a{
+    text-decoration: none;
+
+}
+
+.hero{
+    padding: 0px 10%;
+    background-image: url(../public/images/4bgc18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.hero_container{
+    max-width: 1280px;
+    height: 100%;
+    margin: 0px auto;
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero_container h1{
+    font-size: 72px;
+    font-weight: 400;
+    background-color: #fff;
+    line-height: 1.6;
+    padding: 10px ;
+    word-wrap: break-word;
+    text-align: right;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.article{
+    padding: 50px 10%;
+    
+    background-color: rgb(27, 20, 20);
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    font-size: 3.5rem;
+    
+}
+.article_container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.article p{
+  
+    
+}
+
+.products_section{
+    padding: 0px 10%;
+}
+
+.product_section_container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.product_container{
+    display: flex;
+}
