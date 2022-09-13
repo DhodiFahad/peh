@@ -28,22 +28,22 @@ function Navbar() {
           <ul className={styles.nav_list}>
             <li>
               <Link href="/">
-                Home
+                <a>Home</a>
               </Link>
             </li>
             <li>
-              <Link href="/reviews">
-                Reviews
+              <Link href="/reviews/">
+                <a>Reviews</a>
               </Link>
             </li>
             <li>
-              <Link href="/faqs">
-                FAQS
+              <Link href="/faqs/">
+                <a>FAQS</a>
               </Link>
             </li>
             <li>
-              <Link href="/contact">
-                CONTACT
+              <Link href="/contact/">
+                <a>CONTACT</a>
               </Link>
             </li>
           </ul>
