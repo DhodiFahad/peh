@@ -27,30 +27,30 @@ export default function Home() {
         </p>
         <h3>Why?</h3>
         <p>
-          Because you won't be Needing them Anymore! 
+          Because you won&apos;t be Needing them Anymore! 
           and they Hurt your Penis, require more than 
           30 mins of your Time Everyday and Still take 
           longer to produce desired penis size...
         </p>
 
-        <h3>Here's a Fast and Permanent solution 
+        <h3>Here&apos;s a Fast and Permanent solution 
           to help you increase your penis size!</h3>
 
         <p>Have you ever Wondered why Black Folks 
           from Sudan to Congo have extra-ordinarily 
           Huge Penis sizes? Did you also know that 
-          most of them weren't born that way? NO.</p>
+          most of them weren&apos;t born that way? NO.</p>
 
         <p>You see, in most cultures across Africa 
           when a male child reaches about 2 years old, 
           the parents make a concoction of herbs and 
-          apply the mixture to the child's penis when 
-          he's still young so that when this man grows 
-          up he'll be able to please his many wives!</p>
+          apply the mixture to the child&apos;s penis when 
+          he&apos;s still young so that when this man grows 
+          up he&apos;ll be able to please his many wives!</p>
         
         <p>
         The same is done to Adults whose penis growth was 
-        stalled by various factors including "Genetics" - 
+        stalled by various factors including &quot;Genetics&quot; - 
         A mixture of stronger more powerful herbs are 
         prepared with pure quality locally sourced Ghee 
         and given to the Adult to apply on their Penis 
@@ -72,10 +72,10 @@ export default function Home() {
           regardless of Your Genetics or Ethnicity,We have carefully 
           prepared, tested and packaged it as a Herbal Jelly that will 
           be your Ultimate - All in One Penis Enlargement Solution- 
-          "you simply apply it on your penis and massage while 
+          &quot;you simply apply it on your penis and massage while 
           stretching/pulling forward for about 3 mins twice a day and 
           in a about 14 days you will have achieved impressively 
-          noticeable growth in length and girth guaranteed" - this 
+          noticeable growth in length and girth guaranteed&quot; - this 
           upgraded formula works for everyone within 5 - 14 days, 
           meaning some people achieve the results faster than others 
           but a 14 day guarantee is given to everyone - even the 
@@ -98,14 +98,14 @@ export default function Home() {
               </div>
               <div className={styles.product_container}>
                 <div className={styles.product}>
-                  <Image src={tin} width="500px" height="300px"/>
+                  <Image alt='' src={tin} width="500px" height="300px"/>
                   <h4>Mukuza Instant Performance Tea </h4>
                   <span>(New Formula!)</span>
                   <span>(370.9$)</span>
                   <p>Specially Formulated for those who want Extreme 
                     Stallion like Performance - Mixed with over 
                     15 secret highly potent Therapeutic herbs with 
-                    Aphrodisiac Properties that's been used across 
+                    Aphrodisiac Properties that&apos;s been used across 
                     Africa to treat different male Sexual Dysfunction 
                     & Disorders for a very long time - For Masturbation 
                     Victims, Low Sex Drive, Erectile Dysfunction,  
@@ -116,7 +116,7 @@ export default function Home() {
                     for about 5 mins, take twice a day in the morning and 
                     afternoon for full effect and in just about 2 days 
                     your entire system will undergo full detox and your 
-                    performance will start improving Instantly -  It's 
+                    performance will start improving Instantly -  It&apos;s 
                     Been Used All Over Africa from Sudan to Congo  -  
                     Highly Recommended! </p>
 
@@ -124,7 +124,7 @@ export default function Home() {
                 </div>
 
                 <div className={styles.product}>
-                  <Image src={Jelly} width="500px" height="300px"/>
+                  <Image alt='' src={Jelly} width="500px" height="300px"/>
                   <h4>Mukuza Instant Performance Tea </h4>
                   <span>(New Formula!)</span>
                   <span>(370.9$)</span>
@@ -174,12 +174,12 @@ export default function Home() {
           <p>
             <q>Been using it for about a 11 days 
               now and i can see a very huge increase 
-              in girth when I'm flaccid and erect. 
-              I've been massaging it in for about 
+              in girth when I&apos;m flaccid and erect. 
+              I&apos;ve been massaging it in for about 
               2 min, but the bottle suggests 5 mins 
-              so maybe that's why I'm seeing slower 
-              results. Overall, it's just unbelievable 
-              what i am seeing - i can't believe this 
+              so maybe that&apos;s why I&apos;m seeing slower 
+              results. Overall, it&apos;s just unbelievable 
+              what i am seeing - i can&apos;t believe this 
               is part of my body!.</q>
           </p>
         </div>

@@ -8,7 +8,7 @@ function Navbar() {
     <nav className={styles.navbar}>
         <div className={styles.logo_container}>
           <div>
-            <Image src={logo} width="20" height="20"/>
+            <Image alt='' src={logo} width="20" height="20"/>
           </div>
           <div>
             <span>
