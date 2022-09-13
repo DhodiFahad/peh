@@ -8,8 +8,9 @@
     align-items: center;
     max-width: 1280px;
     margin: 0px auto;
+    padding: 15px 0px;
     /* padding:10px 10%; */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .logo_container{
@@ -25,6 +26,8 @@
 }
 .nav_list li a{
     text-decoration: none;
+    color: #000;
+    font-size: 18px;
 
 }
 
@@ -55,7 +58,7 @@
     padding: 10px ;
     word-wrap: break-word;
     text-align: right;
-    display: block;
+    display: inline-block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -83,14 +86,145 @@
 }
 
 .products_section{
-    padding: 0px 10%;
+    padding: 50px 10%;
+}
+.product_title {
+    text-align: center;
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+.product_title h2{
+    font-size: 56px;
 }
 
+.product_title span{
+    font-size: 24px;
+}
 .product_section_container{
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .product_container{
     display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 26px;
+
+}
+.product h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.product span{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.product :nth-child(3){
+    font-style: italic;
+}
+.product :nth-child(4){
+    color: red;
+}
+
+.product a{
+    background-color: #ffd757;
+    padding: 10px 25px;
+    margin: 0px auto;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 20px;
+}
+
+
+.shipping{
+    text-align: center;
+    background-color: rgb(51, 105, 30);
+}
+
+.shipping h1{
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 300;
+    padding: 50px 0px;
+    color: #fff;
+    margin: 0;
+}
+
+.order_now{
+    background-image: url("https://d1di2lzuh97fh2.cloudfront.net/files/10/10f/10fw01.jpg?ph=671e2f254d&t=1");
+    /* margin: 0; */
+    font-size: 20px;
+    font-weight: 300;
+    /* display: flex; */
+}
+.order_now_container{
+    max-width: 1140px;
+    padding: 60px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 56px;
+    text-align: start;
+}
+
+.order_now_container h1{
+    /* margin: 0; */
+}
+
+.qoute{
+    background-color: #000;
+    color: #fff;
+}
+
+.qoute_container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: start;
+}
+.qoute_container h3{
+  
+}
+.qoute_container p{
+    font-size: 20px;
+    line-height: 36px;
+    font-style: italic;
+}
+
+.talk_section{
+    background-image: url("https://d1di2lzuh97fh2.cloudfront.net/files/43/43o/43ovba.jpg?ph=671e2f254d&t=1");
+    text-align: center;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.talk_section h3{
+    background-color: rgba(0, 0, 0, 0.389);
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    margin: 40px auto;
+}
+.talk_section a{
+    display: inline-block;
+    background-color: #ffd757;
+    padding: 10px 25px;
+    margin: 0px auto;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 20px;
 }
