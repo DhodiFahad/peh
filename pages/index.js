@@ -104,7 +104,7 @@ export default function Home() {
                   <span>(370.9$)</span>
                   <p>Specially Formulated for those who want Extreme Stallion 
                     like Performance - Mixed with over 15 secret highly potent 
-                    Therapeutic herbs with Aphrodisiac Properties that's been 
+                    Therapeutic herbs with Aphrodisiac Properties that&apos;s been 
                     used across Africa to treat different male Sexual Dysfunction 
                     & Disorders for a very long time - For Masturbation Victims, 
                     Low Sex Drive, Erectile Dysfunction,  Weak Erections & 
@@ -114,7 +114,7 @@ export default function Home() {
                     it settle for about 5 mins, take twice a day in the morning 
                     and afternoon for full effect and in just about 2 days your 
                     entire system will undergo full detox and your performance 
-                    will start improving Instantly -  It's Been Used All Over 
+                    will start improving Instantly -  It&apos;s Been Used All Over 
                     Africa from Sudan to Congo  -  Highly Recommended! </p>
 
                     <a href="https://wa.me/%2B256705183414">Get it Now</a>
