@@ -9,8 +9,8 @@ import Navbar from '../components/navbar'
 
 export default function Home() {
   return (
-    <div>
-      <Navbar/>
+    <div className={styles.container}>
+     
       <div className={styles.hero}>
        <div className={styles.hero_container}>
          <h1>Gain 2 - 7 Inches fast in Just 14 Days with our powerful Herbs</h1>
@@ -93,41 +93,38 @@ export default function Home() {
       <div className={styles.products_section}>
             <div className={styles.product_section_container}>
               <div className={styles.product_title}>
-                <h2>P Enlargement Products</h2>
+                <h3>Penis Enlargement Products</h3>
                 <span>Choose the one product that fits your needs - we have tea and jelly</span>
               </div>
               <div className={styles.product_container}>
                 <div className={styles.product}>
-                  <Image alt='' src={tin} width="500px" height="300px"/>
+                  <Image alt='Mukuza Instant Performance Tea ' src={tin} width="500px" height="300px"/>
                   <h4>Mukuza Instant Performance Tea </h4>
                   <span>(New Formula!)</span>
                   <span>(370.9$)</span>
-                  <p>Specially Formulated for those who want Extreme 
-                    Stallion like Performance - Mixed with over 
-                    15 secret highly potent Therapeutic herbs with 
-                    Aphrodisiac Properties that&apos;s been used across 
-                    Africa to treat different male Sexual Dysfunction 
-                    & Disorders for a very long time - For Masturbation 
-                    Victims, Low Sex Drive, Erectile Dysfunction,  
-                    Weak Erections & Sexual Stamina/Manpower (last in 
-                    bed for 45 minutes minimum), Increases Sperm Volume 
-                    & Tons of other health benefits - You simply mix 2 
-                    teaspoons in a cup full of hot water and let it settle 
-                    for about 5 mins, take twice a day in the morning and 
-                    afternoon for full effect and in just about 2 days 
-                    your entire system will undergo full detox and your 
-                    performance will start improving Instantly -  It&apos;s 
-                    Been Used All Over Africa from Sudan to Congo  -  
-                    Highly Recommended! </p>
+                  <p>Specially Formulated for those who want Extreme Stallion 
+                    like Performance - Mixed with over 15 secret highly potent 
+                    Therapeutic herbs with Aphrodisiac Properties that's been 
+                    used across Africa to treat different male Sexual Dysfunction 
+                    & Disorders for a very long time - For Masturbation Victims, 
+                    Low Sex Drive, Erectile Dysfunction,  Weak Erections & 
+                    Sexual Stamina/Manpower (last in bed for 45 minutes minimum), 
+                    Increases Sperm Volume & Tons of other health benefits - 
+                    You simply mix 2 teaspoons in a cup full of hot water and let 
+                    it settle for about 5 mins, take twice a day in the morning 
+                    and afternoon for full effect and in just about 2 days your 
+                    entire system will undergo full detox and your performance 
+                    will start improving Instantly -  It's Been Used All Over 
+                    Africa from Sudan to Congo  -  Highly Recommended! </p>
 
-                    <a href='#'>Get it Now</a>
+                    <a href="https://wa.me/%2B256705183414">Get it Now</a>
                 </div>
 
                 <div className={styles.product}>
-                  <Image alt='' src={Jelly} width="500px" height="300px"/>
-                  <h4>Mukuza Instant Performance Tea </h4>
-                  <span>(New Formula!)</span>
-                  <span>(370.9$)</span>
+                  <Image alt='Mukuza Instant Herbal Jelly' src={Jelly} width="500px" height="300px"/>
+                  <h4>Mukuza Instant Herbal Jelly</h4>
+                  <span>(Updated Formula!)</span>
+                  <span>(480.10$)</span>
                   <p>Our Flagship Product - The Ultimate All in One Penis 
                     Enlargement Solution for Rapid Penis Length and Girth -
                     This Updated Formula increases absorption of the herbs 
@@ -144,7 +141,7 @@ export default function Home() {
                     (NOTE: you must stop when you get your desired size - 
                     side effects of over using this jelly are irreversible)</p>
 
-                    <a href='#'>Get it Now</a>
+                    <a href="https://wa.me/%2B256705183414">Get it Now</a>
                 </div>
             </div>
             </div>
@@ -186,14 +183,9 @@ export default function Home() {
 
       </div>
 
-      <div className={styles.talk_section}>
-        <h3>Get The Size of Your Dreams Now!!!</h3>
-        <a href='#'>Talk To Us Via Whatsapp</a>
-      </div>
+      
 
-      <footer>
-
-      </footer>
+  
       
     </div>
   )

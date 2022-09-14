@@ -1,6 +1,6 @@
 .container{
-    max-width: 1280px;
-    margin: 0px auto;
+    margin: 0;
+
 }
 .navbar{
     display: flex;
@@ -16,6 +16,17 @@
 .logo_container{
     display: flex;
     font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    
+}
+.logo{
+    margin: 0px 10px;
+}
+.logo_typo{
+    font-weight: 500;
+    font-size: 24px;
 }
 
 .nav_list li{
@@ -27,7 +38,7 @@
 .nav_list li a{
     text-decoration: none;
     color: #000;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -203,28 +214,66 @@
     line-height: 36px;
     font-style: italic;
 }
+.whatsapp a{
+    display: inline-block;
+  background-color: #ffd757;
+  padding: 10px 25px;
+  margin: 0px auto;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
 
-.talk_section{
-    background-image: url("https://d1di2lzuh97fh2.cloudfront.net/files/43/43o/43ovba.jpg?ph=671e2f254d&t=1");
-    text-align: center;
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
 }
-.talk_section h3{
-    background-color: rgba(0, 0, 0, 0.389);
-    display: inline-block;
-    color: #fff;
-    padding: 10px;
-    margin: 40px auto;
-}
-.talk_section a{
-    display: inline-block;
-    background-color: #ffd757;
-    padding: 10px 25px;
-    margin: 0px auto;
-    text-decoration: none;
-    cursor: pointer;
-    color: #000;
-    font-size: 20px;
+/* @media (max-width:450px){
+    .hero_container h1{
+        font-size: 42px;
+        line-height: 1;
+    }
+    .hero{
+        height: 80vh;
+    }
+} */
+
+@media (max-width:750px ) {
+    .navbar{
+        padding-left:5%;
+        padding-right: 5%;
+        font-size: 14px;
+    }
+    .navbar .logo_typo{
+        font-size: 18px;
+    }
+    .hero{
+        height: 90vh;
+    }
+    .hero_container h1{
+        font-size: 48px;
+        line-height: 1.2;
+        
+        
+    }
+    .article{
+        font-size: 32px;
+    }
+    .article h3{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .order_now_container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .qoute_container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav_list li a{
+        font-size: 14px;
+    }
+    .nav_list .home_link{
+        display: none;
+    }
+
+
 }

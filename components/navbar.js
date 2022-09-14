@@ -7,18 +7,12 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
         <div className={styles.logo_container}>
-          <div>
-            <Image alt='' src={logo} width="20" height="20"/>
+          <div className={styles.logo}>
+            <Image alt='Penis Enlargment Herbs' src={logo} width="40" height="40"/>
           </div>
-          <div>
+          <div className={styles.logo_typo}>
             <span>
-              P
-            </span>
-            <span>
-              E
-            </span>
-            <span>
-              H
+              Penis Enlargment Herbs
             </span>
           </div>
         </div>
@@ -26,28 +20,16 @@ function Navbar() {
         <div>
 
           <ul className={styles.nav_list}>
-            <li>
+            <li className={styles.home_link}>
               <Link href="/">
                 <a>Home</a>
               </Link>
             </li>
-            <li>
-              <Link href="/reviews/">
-                <a>Reviews</a>
-              </Link>
+            <li className={styles.whatsapp}>
+                <a href="https://wa.me/%2B256705183414">Talk To Us Via Whatsapp</a>
             </li>
-            <li>
-              <Link href="/faqs/">
-                <a>FAQS</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact/">
-                <a>CONTACT</a>
-              </Link>
-            </li>
+           
           </ul>
-
         </div>
 
       </nav>

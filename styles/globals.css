@@ -4,17 +4,43 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  display: flex;
 }
 
 
 * {
   box-sizing: border-box;
 }
+
+
 h3{
   font-weight: 300;
   font-size: 56px;
 }
-
+.talk_section{
+  background-image: url("https://d1di2lzuh97fh2.cloudfront.net/files/43/43o/43ovba.jpg?ph=671e2f254d&t=1");
+  text-align: center;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.talk_section h3{
+  background-color: rgba(0, 0, 0, 0.389);
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+  margin: 40px auto;
+}
+.talk_section a{
+  display: inline-block;
+  background-color: #ffd757;
+  padding: 10px 25px;
+  margin: 0px auto;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
