@@ -1,0 +1,4 @@
+Sitemap: http://penisenlargementherbs.com/sitemap.xml
+
+User-agent: *
+Disallow:
