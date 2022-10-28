@@ -1,0 +1,34 @@
+.article{
+    padding: 50px 0px;
+    
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    font-size: 32px;
+    
+}
+.article_container{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.article p{
+  line-height: 48px;
+}
+
+@media (max-width:750px ) {
+  .article{
+    font-size: 18px;
+  }
+  .article_container{
+    width: 100%;
+  }
+  .article_container h3{
+   
+    font-size: 20px;
+  }
+  .article_container p{
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,39 @@
+.hero{
+    background-image: url("/images/4bgc18.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.hero_container{
+    max-width: 1280px;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* padding: ; */
+    
+}
+.hero_container h1{
+    font-size: 48px;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 10px;
+    word-wrap: break-word;
+
+}
+
+@media (max-width:750px) {
+    .hero_container h1{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:350px) {
+    .hero_container h1{
+        font-size: 18px;
+    }
+}

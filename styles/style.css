@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("./nav.css");
+@import url("./hero.css");
+@import url("./article.css");
+@import url("./product.css");
+@import url("./shipping.css");
+@import url("./quote.css");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+
+}
+*, *::before,  *::after{
+    box-sizing: inherit;
+}
+
+.container{
+    width: 100%;
+    padding: 0px 10%;
+    /* background-color: #000; */
+}
+
+/* @media (max-width:750px ) {
+  h{
+
+  }
+  p{
+    font-size: 14px;
+  }
+  .nav{
+      padding-left:5%;
+      padding-right: 5%;
+      font-size: 14px;
+  }
+  .nav .logo_typo{
+      font-size: 18px;
+  }
+  .hero{
+      height: 90vh;
+  }
+  .hero_container h1{
+      font-size: 48px;
+      line-height: 1.2;
+      
+      
+  }
+  .article{
+      font-size: 32px;
+  }
+  .article h3{
+      font-size: 36px;
+      font-weight: 600;
+  }
+  .order_now_container{
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  .qoute_container{
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  .nav_list li a{
+      font-size: 14px;
+  }
+  .nav_list .home_link{
+      display: none;
+  }
+
+
+} */

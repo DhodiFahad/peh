@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[188],{7908:function(a,b,c){(window.__NEXT_P=window.__NEXT_P||[]).push(["/faqs",function(){return c(9359)}])},9359:function(a,b,c){"use strict";c.r(b);var d=c(5893);c(7294),b.default=function(){return(0,d.jsx)("div",{children:"Faqs"})}}},function(a){a.O(0,[774,888,179],function(){var b;return a(a.s=7908)}),_N_E=a.O()}])

@@ -1,0 +1,50 @@
+.shipping{
+    text-align: center;
+    background-color: rgb(51, 105, 30);
+}
+
+.shipping h1{
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 300;
+    padding: 50px 0px;
+    color: #fff;
+    margin: 0;
+}
+
+.order_now{
+    background-image: url("https://d1di2lzuh97fh2.cloudfront.net/files/10/10f/10fw01.jpg?ph=671e2f254d&t=1");
+    /* margin: 0; */
+    font-size: 20px;
+    font-weight: 300;
+    /* display: flex; */
+}
+.order_now_container{
+    /* max-width: 1140px; */
+    padding: 60px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 56px;
+    text-align: start;
+}
+
+.order_now_container h1{
+    margin: 0 auto;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+@media (max-width:750px ) {
+    .shipping h1{
+        font-size: 26px;
+    }
+    .order_now_container h1{
+        /* margin: 0; */
+        font-size: 26px;
+
+    }
+    .order_now_container{
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
